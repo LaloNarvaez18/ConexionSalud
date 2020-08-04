@@ -1,0 +1,241 @@
+footer {
+    background-color: #353a3f;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/*
+    CSS Navbar - Header
+*/
+
+.navbar {
+    background: #ffffff;
+    font-family: 'Varela';
+    font-size: 15px;
+    height: 54px, !important;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    color: red;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #757575;
+}
+
+.nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: bold;
+    color: #1CA7EC !important;
+}
+
+
+/*
+    CSS Banner - Overlay
+*/
+
+.inner {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(13, 71, 161, .80);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 800px;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    opacity: unset;
+}
+
+.banner-uptitle {
+    font-size: 28px;
+    font-family: 'Montserrat';
+}
+
+.banner-title {
+    font-size: 40px;
+    font-family: 'Montserrat';
+}
+
+
+/*
+    CSS Titulos - Subtitlos - Texto
+*/
+
+.title {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: bold;
+    color: #424242;
+}
+
+.text,
+.custom-control-label,
+.form-control,
+.subtitle {
+    font-family: 'Varela' !important;
+    font-size: 15px !important;
+}
+
+.custom-control-label,
+.form-control,
+.text {
+    color: #9e9e9e !important;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #9e9e9e !important;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-family: 'Varela';
+    font-size: 16px;
+    color: #9e9e9e;
+}
+
+.card-body i {
+    color: #1CA7EC;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+/*
+    CSS Botones
+*/
+
+.btn-success,
+.btn-primary,
+.btn-light,
+.btn-outline-success,
+.btn-outline-info,
+.btn-outline-primary,
+.btn-google,
+.btn-facebook {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px !important;
+}
+
+.btn-outline-success {
+    border-color: #00C853;
+    color: #00C853;
+}
+
+.btn-outline-info {
+    background-color: #1CA7EC;
+    border-color: #1CA7EC;
+}
+
+.btn-light {
+    color: #212121;
+}
+
+.btn-success {
+    background-color: #00C851;
+    border-color: #00C851;
+}
+
+.btn-outline-success:hover,
+.btn-success:hover {
+    background-color: #00C851;
+    border-color: #00C851;
+}
+
+.btn-outline-primary {
+    color: #1CA7EC;
+    border-color: #1CA7EC;
+}
+
+.btn-primary {
+    background-color: #1CA7EC;
+    border-color: #1CA7EC;
+}
+
+.btn-outline-primary:hover,
+.btn-primary:hover {
+    background-color: #1CA7EC;
+    border-color: #1CA7EC;
+}
+
+.btn-google {
+    background-color: #db4a39;
+    color: #ffffff;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+.btn-uppercase {
+    letter-spacing: 2.5px;
+    font-size: 14px !important;
+    font-family: 'Roboto';
+}
+
+.btn-rounded {
+    border-radius: 50px;
+}
+
+.border-2 {
+    border: 2px solid #fff;
+}
+
+.avatar img {
+    width: 100px;
+}
+
+
+/*
+    CSS Listas
+*/
+
+.list-group-item {
+    font-family: 'Varela';
+    font-size: 16px;
+    color: #000 !;
+}
+
+.list-group-item i {
+    font-size: 16px;
+    color: #000;
+}
+
+.list-text {
+    font-size: 15px;
+    color: #9e9e9e;
+}
