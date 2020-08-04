@@ -39,14 +39,12 @@
             </div>
         </div>
         <div class="col-lg-8">
-            <div class="card">
-                <div class="avatar">
-                    @if(Auth::user()->tipo == "Paciente")
-                        <h1>Bienvenido!</h1>
-                    @else
-                        <h1>Hola medico</h1>
-                    @endif
-                </div>
+            <div class="avatar">
+                @if(Auth::user()->tipo == "Paciente")
+                    <h1>Bienvenido!</h1>
+                @else
+                    <h1>Hola medico</h1>
+                @endif
             </div>
         </div>
     </div>
